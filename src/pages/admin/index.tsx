@@ -6,7 +6,7 @@ import Navbar from '../../components/navbar/NavbarAdmin';
 import Sidebar from '../../components/sidebar/Sidebar';
 import { SidebarContext } from '../../contexts/SidebarContext';
 import { useState } from 'react';
-import {Redirect, Route, Switch } from 'react-router-dom';
+import {Redirect, Switch } from 'react-router-dom';
 import routes from '../../routes/routes';
 import PrivateRoute from '../../routes/privateRoutes';
 

@@ -1,4 +1,4 @@
-import { Box, Button, Flex, Icon, Progress, Table, Tbody, Td, Text, Th, Thead, Tr, useColorModeValue } from '@chakra-ui/react';
+import { Box, Button, Flex, Icon, Table, Tbody, Td, Text, Th, Thead, Tr, useColorModeValue } from '@chakra-ui/react';
 import {
 	createColumnHelper,
 	flexRender,
@@ -7,11 +7,9 @@ import {
 	SortingState,
 	useReactTable
 } from '@tanstack/react-table';
-// Custom components
-import Card from '../../../../components/card/Card';
 
 // Assets
-import { MdCancel, MdCheckCircle, MdOutlineCached, MdOutlineCalendarToday, MdOutlineError, MdAdd, MdOutlineRemoveRedEye, MdDownload} from 'react-icons/md';
+import { MdCancel, MdCheckCircle, MdOutlineCached} from 'react-icons/md';
 import React,{ useEffect, useState } from 'react';
 import moment from 'moment';
 

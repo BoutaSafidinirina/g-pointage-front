@@ -35,14 +35,6 @@ export const AddTypeConger: FunctionComponent<AddModalProps> = ({ isOpen, onClos
         right: 0,
         zIndex: 999,
     };
-    
-    const selectStyle = {
-        variant:'container',
-        fontSize: "md",
-        fontWeight: 500,
-        mb:"16px" ,
-        size: "md"
-    };
 
     const inputStyle = {
         variant:'container',

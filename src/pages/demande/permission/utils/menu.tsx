@@ -11,11 +11,9 @@ import {
 	MenuList,
 	useDisclosure,
 	useColorModeValue,
-	Button
 } from '@chakra-ui/react';
 // Assets
 import {
-	MdImportExport,
 	MdPictureAsPdf,
 	MdFileDownload
 } from 'react-icons/md';

@@ -1,5 +1,5 @@
 // Chakra imports
-import { Avatar, Box, Button, Flex, Icon, Text, useColorModeValue } from '@chakra-ui/react';
+import {  Box, Button, Flex, Icon, Text, useColorModeValue } from '@chakra-ui/react';
 import Card from '../../components/card/Card';
 // Custom components
 import SwitchField from '../../components/fields/SwitchField';

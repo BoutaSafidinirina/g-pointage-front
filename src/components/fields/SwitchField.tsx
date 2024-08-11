@@ -1,5 +1,5 @@
 // Chakra imports
-import { Avatar, Box, Button, Flex, FormLabel, Icon, Switch, Text, useColorModeValue } from '@chakra-ui/react';
+import { Avatar, Box, Button, Flex, FormLabel, Text, useColorModeValue } from '@chakra-ui/react';
 import axios from 'axios';
 import Swal from 'sweetalert2';
 import { useLocalStorage } from '../../pages/appContexte';

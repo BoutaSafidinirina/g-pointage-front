@@ -1,4 +1,4 @@
-import { Box, Button, Flex, Icon, Table, Tbody, Td, Text, Th, Thead, Tr, useColorModeValue } from '@chakra-ui/react';
+import { Box, Flex, Icon, Table, Tbody, Td, Text, Th, Thead, Tr, useColorModeValue } from '@chakra-ui/react';
 import {
 	createColumnHelper,
 	flexRender,
@@ -8,7 +8,6 @@ import {
 	useReactTable
 } from '@tanstack/react-table';
 // Custom components
-import Card from '../../../components/card/Card';
 import React, { useEffect, useState } from 'react';
 
 import  moment from "moment";

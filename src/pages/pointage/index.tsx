@@ -1,12 +1,10 @@
 
-import React, { ChangeEvent, useEffect, useState } from 'react';
+import React, {  useEffect, useState } from 'react';
 
-import {Box, Button, Card, Flex, FormControl, FormLabel, Icon, Select, SimpleGrid, useColorModeValue } from '@chakra-ui/react';
+import {Box, Button, Flex, Icon, SimpleGrid, useColorModeValue } from '@chakra-ui/react';
 import TablePointage from './utils/tablePointage';
-import { MdLogin, MdLogout, MdOutlineCalendarToday} from 'react-icons/md';
+import { MdOutlineCalendarToday} from 'react-icons/md';
 import generateTableData from './utils/variable';
-import axios from 'axios';
-import Swal from 'sweetalert2';
 import { useLocalStorage } from '../appContexte';
 import Menu from './utils/menu';
 import generateTable from '../../pages/employer/utils/variables';
@@ -14,8 +12,6 @@ import TableEntre from './utils/tableEntre';
 
 export default function Conger(){
 	const textColorSecondary = useColorModeValue('white', 'white');
-	const bgHover = useColorModeValue({ bg: 'green.300' }, { bg: 'green.300' });
-	const bgHover1 = useColorModeValue({ bg: 'red.300' }, { bg: 'red.300' });
 	const boxBg = useColorModeValue('secondaryGray.500', 'secondaryGray.500');
 	
 	const [defaultData, setdefaultData] = useState([]);
@@ -38,18 +34,6 @@ export default function Conger(){
 		fetchDataEmp();
 		fetchData();
 	}, [searchValue, filter, id, role]);
-
-	const selectStyle = {
-        fontWeight: '500',
-        color: 'navy.700',
-        bg: 'white',
-        border: '1px solid',
-        borderColor: 'green.500',
-        _hover:{ bg:'secondaryGray.200'},
-        fontSize: "sm",
-        mb:"16px",
-        size: "md"
-    };
 
 	return (
 		<Box pt={{ base: '180px', md: '80px', xl: '80px' }}>

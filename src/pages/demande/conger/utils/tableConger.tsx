@@ -1,4 +1,4 @@
-import { Box, Button, Flex, Icon, Progress, Table, Tbody, Td, Text, Th, Thead, Tr, useColorModeValue } from '@chakra-ui/react';
+import { Box, Button, Flex, Icon, Table, Tbody, Td, Text, Th, Thead, Tr, useColorModeValue } from '@chakra-ui/react';
 import {
 	createColumnHelper,
 	flexRender,
@@ -9,10 +9,9 @@ import {
 } from '@tanstack/react-table';
 // Custom components
 import Card from '../../../../components/card/Card';
-import Menu from './menu';
 // Assets
 
-import { MdCancel, MdCheckCircle,MdSave, MdOutlineCached, MdOutlineCalendarToday, MdOutlineError, MdAdd, MdOutlineRemoveRedEye, MdDownload} from 'react-icons/md';
+import { MdCancel, MdCheckCircle, MdOutlineCached, MdOutlineRemoveRedEye, MdDownload} from 'react-icons/md';
 import  React,{ useEffect, useState } from 'react';
 import Swal from 'sweetalert2';
 import '../../../../assets/css/sweetalert.css'

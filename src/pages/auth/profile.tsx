@@ -1,4 +1,4 @@
-import { Box, Button, Flex,Text, Grid, SimpleGrid, useColorModeValue, Input } from '@chakra-ui/react';
+import { Box, Button, Flex,Text, Grid, SimpleGrid, useColorModeValue } from '@chakra-ui/react';
 
 import banner from '../../assets/img/auth/banner.png';
 import Banner from './components/Banner';

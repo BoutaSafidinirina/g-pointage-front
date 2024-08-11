@@ -1,11 +1,9 @@
 
-import React, { FunctionComponent, useEffect, useState } from 'react';
+import React, {  useEffect, useState } from 'react';
 
 // Chakra imports
 import { Box, Flex} from '@chakra-ui/react';
 
-// Custom components
-import TableData from './utils/variables';
 import Card from '../../components/card/Card';
 
 import Table from './utils/table'; 

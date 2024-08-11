@@ -1,4 +1,4 @@
-import { Box, Button, Flex, Icon, Progress, Table, Tbody, Td, Text, Th, Thead, Tr, useColorModeValue } from '@chakra-ui/react';
+import { Box, Button, Flex, Icon, Table, Tbody, Td, Text, Th, Thead, Tr, useColorModeValue } from '@chakra-ui/react';
 import {
 	createColumnHelper,
 	flexRender,
@@ -9,10 +9,9 @@ import {
 } from '@tanstack/react-table';
 // Custom components
 import Card from '../../../components/card/Card';
-import Menu from '../utils/menu';
 import React , {useEffect, useState} from 'react';
 
-import { MdAdd, MdLogin } from 'react-icons/md';
+import { MdLogin } from 'react-icons/md';
 
 import axios from 'axios';
 import Swal from 'sweetalert2';

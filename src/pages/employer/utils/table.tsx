@@ -1,4 +1,4 @@
-import { Avatar, Box, Button, Flex, Icon, Progress, Table, Tbody, Td, Text, Th, Thead, Tr, useColorModeValue} from '@chakra-ui/react';
+import { Avatar, Box, Button, Flex, Icon, Table, Tbody, Td, Text, Th, Thead, Tr, useColorModeValue} from '@chakra-ui/react';
 import {
 	createColumnHelper,
 	flexRender,

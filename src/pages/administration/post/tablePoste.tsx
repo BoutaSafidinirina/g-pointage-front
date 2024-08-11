@@ -9,7 +9,6 @@ import {
 } from '@tanstack/react-table';
 // Custom components
 import Card from '../../../components/card/Card';
-import Menu from '../utils/menu';
 import React ,{ useEffect, useState}from 'react';
 import { MdAdd } from 'react-icons/md';
 import { AddPost } from './addPost';
@@ -28,7 +27,6 @@ const columnHelper = createColumnHelper<RowObj>();
 
 // const columns = columnsDataCheck;
 export default function ListeTypeConger(props: { tableData:any, updateDefaultData:() => void}) {
-	const [editData , setEditData] = useState<any>();
 	const [isAddPosteOpen, setIsAddPosteOpen] = useState(false);
 	const [isEditPosteOpen, setIsEditPosteOpen] = useState(false);
 	

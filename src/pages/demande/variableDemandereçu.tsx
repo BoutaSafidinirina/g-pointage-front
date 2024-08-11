@@ -1,5 +1,5 @@
 import { Icon } from "@chakra-ui/react";
-import { MdCancel, MdCheckCircle, MdDelete, MdEdit } from "react-icons/md";
+import { MdCancel, MdCheckCircle } from "react-icons/md";
 import axios from 'axios';
 
 
