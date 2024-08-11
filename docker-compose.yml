@@ -1,0 +1,21 @@
+version: "3.8"
+
+services:
+  g-pointage-front:
+    container_name: g-pointage-front
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: npm run start
+    volumes:
+      - .:/g-pointage
+      - /g-pointage/node_modules
+    expose:
+      - 3000
+    networks:
+      - pointage-docker-network
+    restart: always
+
+networks:
+  pointage-docker-network:
+    name: pointage-docker-network

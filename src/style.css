@@ -1,0 +1,15 @@
+.print-source {
+    display: none;
+    background-color: red;
+}
+  
+body > .print-source {
+    display: block;
+} 
+@media print {
+    .print-source {
+      display: block;
+      background-color: #fff;
+      padding: 10px;
+    }
+}

@@ -1,0 +1,11 @@
+.custom-title-class {
+    color: "#716add";
+    font-size: 20px; /* Ajustez la taille du titre selon vos besoins */
+}
+  
+.custom-icon-class {
+    font-size: 20px; /* Ajustez la taille de l'icône selon vos besoins */
+}
+.custom-popup-class{
+    width: 400px;
+}
